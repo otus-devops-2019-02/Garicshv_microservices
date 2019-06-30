@@ -1,0 +1,16 @@
+REPOSITORY                                      TAG                 IMAGE ID            CREATED             SIZE
+gitlab/gitlab-runner-helper                     x86_64-5a147c92     853b0ea4df96        5 weeks ago         52.4MB
+gitlab/gitlab-runner                            latest              75e3b54a672a        5 weeks ago         392MB
+alpine                                          latest              055936d39205        7 weeks ago         5.53MB
+telegraf                                        latest              a6e786c4d5a7        2 months ago        244MB
+influxdb                                        latest              3540365e54c2        2 months ago        258MB
+splunk/splunk                                   latest              d0e924f35601        2 months ago        537MB
+grafana/grafana                                 latest              d9bdb6044027        2 months ago        245MB
+docker.elastic.co/logstash/logstash             6.7.1               1f5e249719fc        2 months ago        778MB
+docker.elastic.co/kibana/kibana                 6.7.1               860831fbf9e7        2 months ago        677MB
+docker.elastic.co/elasticsearch/elasticsearch   6.7.1               e2667f5db289        2 months ago        812MB
+docker.elastic.co/beats/filebeat                6.7.1               04fcff75b160        2 months ago        279MB
+outcoldsolutions/collectorfordocker             5.7.220             4585ef293111        3 months ago        16.8MB
+outcoldsolutions/collectord                     latest              968c0938725a        3 months ago        18.2MB
+hello-world                                     latest              fce289e99eb9        6 months ago        1.84kB
+kalilinux/kali-linux-docker                     latest              f26f3ae90aee        8 months ago        1.57GB
