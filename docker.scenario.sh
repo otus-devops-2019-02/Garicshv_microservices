@@ -5,7 +5,8 @@ function usage(){
 	for i in get_project_id \
 			create_docker_machine_1 \
 			install_docker_machine \
-			get_info_docker_machine_1 
+			get_info_docker_machine_1 \
+			allow_9292_port
 			
 	do
 		echo "$0 $i"
@@ -41,6 +42,21 @@ function create_docker_machine(){
 	eval $(docker-machine env docker-host)
 }
 
+function create_firewall_rule(){
+	rule_name=$1
+	rule_port=$2
+	if [ -z "$rule_name" ] || [ -z "$rule_port" ]; then
+                echo "Rule name or rule port are empty"
+        fi
+
+	echo "Creating firewall rule [$rule_name] for [tcp:$rule_port]"
+	gcloud compute firewall-rules create $rule_name \
+ 		--allow tcp:$rule_port \
+ 		--target-tags=docker-machine \
+ 		--description="Allow tcp:$rule_port" \
+ 		--direction=INGRESS
+}
+
 case $1 in
 	get_project_id)
 	echo "docker-245318"
@@ -56,6 +72,10 @@ case $1 in
 	
 	get_info_docker_machine_1)
 	get_info_docker_machine docker-host
+	;;
+
+	allow_9292_port)
+	create_firewall_rule reddit-app 9292
 	;;
 
 	*)
