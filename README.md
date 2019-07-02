@@ -51,3 +51,5 @@ Garicshv microservices repository
 > docker run --network none -d nginx
 ```
 то мы можем видеть, что новые контейнеры успешно стартуют. Команда ip netns на doocker-host при этом показывает создание новых net-namespaces.
+docker-compose -p QQQ up -d
+
