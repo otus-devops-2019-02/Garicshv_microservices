@@ -85,3 +85,5 @@ esac
 
 # docker run --rm --pid host -ti tehbilly/htop
 # docker run --rm -ti tehbilly/htop
+# eval $(docker-machine env dockeer-host)
+
