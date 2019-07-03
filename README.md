@@ -38,18 +38,101 @@ Garicshv microservices repository
 * Создан новый образ ui:2.0 на основе ubuntu:16.04. В результате размер образа уменьшился существенно.
 * Создан persistent volume и применен для команды run контейнера с mongodb. Проверить можно по адресу: http://35.233.100.182:9292/  
 
-**ВЫПОЛНЕНО ДЗ №14**
-**HOST NETWORK DRIVER**
-**Задача**: Запустите несколько раз (2-4): 
+**ВЫПОЛНЕНО ДЗ №14**  
+**HOST NETWORK DRIVER**  
+* Запустиkb несколько раз: 
 ```
 > docker run --network host -d nginx
 ```
 Каков результат? Что выдал docker ps? Как думаете почему?  
-Ответ: остался один запущенный nginx контейнер, т.к. остальные (последующие) завершили свою работу (при попытке старта) из-за занятости портов в рамках одного namespace
-Если выполнять запуск контейнеров командой
+Ответ: остался один запущенный nginx контейнер, т.к. остальные (последующие) завершили свою работу (при попытке старта) из-за занятости namespace
+Если выполнять запуск контейнеров командой  
 ```
 > docker run --network none -d nginx
 ```
 то мы можем видеть, что новые контейнеры успешно стартуют. Команда ip netns на doocker-host при этом показывает создание новых net-namespaces.
+* Создана bridge сеть
+```
+docker network create reddit --driver bridge 
+```
+* Запущены контейнеры с алиасами:
+```
+docker run -d --network=reddit --network-alias=post_db --networkalias=comment_db mongo:latest
+docker run -d --network=reddit --network-alias=post garicshv/post:1.0
+docker run -d --network=reddit --network-alias=comment garicshv/comment:1.0
+docker run -d --network=reddit -p 9292:9292 garicshv/ui:1.0
+```
+проверена работоспособность веб приложения  
+**BRIDGE NETWORK DRIVER**  
+* Запущен наш проект в двух сетях. Для этого созданы сети
+```
+docker network create back_net --subnet=10.0.2.0/24
+docker network create front_net --subnet=10.0.1.0/24
+
+...
+echo "Запускаем контейнеры:"
+docker run -d --network=front_net -p 9292:9292 --name ui garicshv/ui:1.0
+docker run -d --network=back_net --name comment garicshv/comment:1.0
+docker run -d --network=back_net --name post garicshv/post:1.0
+docker run -d --network=back_net --name mongo_db --network-alias=post_db --network-alias=comment_db mongo:latest
+
+...
+
+echo "Подключение контейнеров к сетям"
+docker network connect front_net post
+...
+docker network connect front_net comment
+
+...
+
+echo "Проверяем успешность запуска приложения в web"
+curl "http:////35.233.100.182:9292"
+...
+```
+* Проанализирован сетевой стек linux
+```
+docker-machine ssh docker-host
+sudo apt-get update && sudo apt-get install bridge-util
+
+...
+
+docker network ls
+
+...
+
+ifconfig | grep br
+
+...
+
+brctl show br-4ac81d1bf266
+bridge name 	bridge id 	STP 	enabled interfaces
+br-4ac81d1bf266 8000.0242ae9beade no 	vethaf41855
+ 					vethe115d8d
+# Через iptables проверено создание правило DNAT для цепочки DOCKER:
+
+sudo iptables
+sudo iptables -nL -t nat
+```
+* Выполнена проверка наличия хотя бы одного запущеннго прокси:
+
+ ps ax | grep docker-proxy
+```
+
+**docker-compose.yml**
+* установлен docker-compose
+* В директории src создан файл docker-compose.yml
+* Создана переменная среды USERNAME и экспортирована. Внесена в файл. Проверена работа:
+```
+docker-compose up -d
+docker compose ls
+```
+* Изменен docker-compose файл под кейс с множеством сетей (front_net, back_net)
+* Параметризован с помощью переменных окружений порт ui, версии сервисов
+* Параметры вынесены в файл .env
+* Файл .env добавлен в .gitignore
+* В репозиторий закоммичен файл .env.example 
+При запуске проекта все создаваемые docker-compose сущности имеют одинаковый префикс, явлющийся базовым именем проекта. Чтобы изменить этот префикс, то можно использовать ключ -d:
+```
 docker-compose -p QQQ up -d
+```
 
