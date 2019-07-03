@@ -114,7 +114,7 @@ sudo iptables
 sudo iptables -nL -t nat
 ```
 * Выполнена проверка наличия хотя бы одного запущеннго прокси:
-
+```
  ps ax | grep docker-proxy
 ```
 
