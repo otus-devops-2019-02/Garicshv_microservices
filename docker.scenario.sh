@@ -6,11 +6,19 @@ function usage(){
 			create_docker_machine_1 \
 			install_docker_machine \
 			get_info_docker_machine_1 \
-			allow_9292_port
+			allow_9292_port \
+			connect_post_comment_to_network 
 			
 	do
 		echo "$0 $i"
 	done
+}
+
+function connect_to_network(){
+	network_name=$1
+	container_name=$2
+	echo "Connecting container [$container_name] to the network [$network_name]"
+	docker network connect front_net post
 }
 
 function install_docker_machine(){
@@ -78,6 +86,11 @@ case $1 in
 	create_firewall_rule reddit-app 9292
 	;;
 
+	connect_post_comment_to_network)
+	connect_to_network front_net post
+	connect_to_network back_net comment
+	;;
+	
 	*)
 	usage
 	;;
