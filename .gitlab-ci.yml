@@ -7,6 +7,7 @@ variables:
   DATABASE_URL: 'mongodb://mongo/user_posts'
 
 before_script:
+  - apt-get update && apt-get upgrade && apt-install ruby-bundler
   - cd reddit
   - bundle install
 
