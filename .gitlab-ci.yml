@@ -45,7 +45,7 @@ deploy_dev_job:
     url: http://dev.example.com
 
 staging:
-  nane: stage
+  name: stage
   when: manual
   script:
     - echo 'Deploy'
