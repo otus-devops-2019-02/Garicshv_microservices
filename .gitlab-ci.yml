@@ -8,7 +8,7 @@ variables:
 
 before_script:
   - apk update
-  - apk add ruby-bundler ruby-rdoc
+  - apk add ruby-dev ruby-bundler ruby-rdoc
   - gem install bcrypt -v '3.1.11'
   - gem install bundler:1.16.1
   - cd reddit
