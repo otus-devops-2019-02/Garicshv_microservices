@@ -18,7 +18,7 @@ before_script:
   - cd reddit
   - bundle install
 
-  
+
 build_job:
   stage: build
   script:
@@ -45,21 +45,22 @@ deploy_dev_job:
     url: http://dev.example.com
 
 staging:
-  name: stage
+  stage: stage
   when: manual
   script:
     - echo 'Deploy'
   environment:
    name: stage
-   utl: http://beta.example.com
+   url: http://beta.example.com
 
 production:
   stage: production
   when: manual
-  script: 
+  script:
     - echo 'Deploy'
-  environment: 
+  environment:
     name: production
     url: http://example.com
+
 
 
