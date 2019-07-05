@@ -7,7 +7,8 @@ function usage(){
 	for i in \
 		ssh \
 		check \
-		ping		
+		ping \
+		push	
 	do echo "$0 $i"
 	done
 
@@ -26,6 +27,10 @@ case $1 in
 
 	ping)
 	ping $HOST
+	;;
+
+	push)
+	git add . && git status && git commit -m "$(date +%s)" && git tag 2.2.3 && git push gitlab gitlab-ci-1 --tags
 	;;
 
 	*)
