@@ -30,7 +30,8 @@ case $1 in
 	;;
 
 	push)
-	git add . && git status && git commit -m "$(date +%s)" && git tag 2.2.3 && git push gitlab gitlab-ci-1 --tags
+	tag=$(date +%s)
+	git add . && git status && git commit -m "tag:2.2.$tag" && git tag 2.2.$tag && git push gitlab gitlab-ci-1 --tags
 	;;
 
 	*)
