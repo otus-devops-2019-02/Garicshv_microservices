@@ -1,3 +1,5 @@
+image: ruby 2.4.2
+
 stages:
   - build
   - test
@@ -7,12 +9,11 @@ variables:
   DATABASE_URL: 'mongodb://mongo/user_posts'
 
 before_script:
-  - apk update
-  - apk add ruby-dev ruby-bundler ruby-rdoc
-  - gem install bcrypt -v '3.1.11'
-  - gem install bundler:1.16.1
+#  - apk update
+#  - apk add ruby-dev ruby-bundler ruby-rdoc
+#  - gem install bcrypt -v '3.1.11'
+#  - gem install bundler:1.16.1
   - cd reddit
-
   - bundle install
 
   
