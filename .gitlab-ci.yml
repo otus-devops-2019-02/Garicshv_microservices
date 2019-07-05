@@ -22,7 +22,7 @@ before_script:
 build_job:
   stage: build
   script:
-    - echo 'B32udd8ildin'
+    - echo 'B3udd8ildin'
 
 test_unit_job:
   stage: test
