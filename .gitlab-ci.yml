@@ -20,7 +20,7 @@ before_script:
 build_job:
   stage: build
   script:
-    - echo 'B32u8ildin'
+    - echo 'B32udd8ildin'
 
 test_unit_job:
   stage: test
