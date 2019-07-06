@@ -9,7 +9,7 @@ Garicshv microservices repository
 * docker commit # commit изменений в образ и его сохранение
 * docker system df # информация о занимаемом месте инфраструктурой docker
 * docker rm и docker rmi -f # удаление imgaes
-* docker rm $(docker ps -a -q) # удаление всех незапущенных конейнеров
+* docker rm $(docker ps -a -q) #  удаление всех незапущенных конейнеров
 
 
 **ВЫПОЛНЕНО ДЗ №13**  
