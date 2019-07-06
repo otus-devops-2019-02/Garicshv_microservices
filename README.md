@@ -186,4 +186,17 @@ git tag 2.4.10
 git push gitlab gitlab-ci-1 --tags
 ```
 
+**ВЫПОЛНЕНО ДЗ №16**  
+* приведена в порядок структура репозитория
+* создан docker/docker-compose.yml - который описывает всю инфраструктуру с докерами (сервисы)
+* создан monitoring/prometheus/Dockerfile - описывает в паре строк как собирать образ prometheus
+* создан monitoring/prometheus/prometheus.yml - описывает конфигурацию (эндпоинты) мониторинга в prometheus
+* проверен мониторинг (healthcheck) таргетов ui, comment в prometheues в выключенном состоянии post и включенном по списке эндпоинтов и по графам метрик
+* добавлен сервис node-exporter в docker-compose, в proetherus.yml отражен новый таргет для мониторинга, проверен мониторинг CPU
+* Образы запушены (по адресу ****) в docker hub:
+	* comment
+	* ui
+	* prometheus
+	* post
+
 
