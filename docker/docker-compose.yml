@@ -61,25 +61,8 @@ services:
       front_net:
         aliases:
           - comment
-  prometheus:
-    env_file:
-      - .env
-    image: ${USER_NAME}/prometheus
-    ports:
-      - '9090:9090'
-    volumes:
-      - prometheus_data:/prometheus
-    networks:
-      - back_net
-      - front_net
-    command:
-      - '--config.file=/etc/prometheus/prometheus.yml'
-      - '--storage.tsdb.path=/prometheus'
-      - '--storage.tsdb.retention=1d'
-
 volumes:
   post_db:
-  prometheus_data:
 
 networks:
   back_net: 

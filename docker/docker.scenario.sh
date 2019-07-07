@@ -7,11 +7,31 @@ function usage(){
 			install_docker_machine \
 			get_info_docker_machine_1 \
 			allow_9292_port \
-			connect_post_comment_to_network 
+			connect_post_comment_to_network \
+			run_monitoring \
+			stop_monitoring \
+			run_app \
+			stop_app  
 			
 	do
 		echo "$0 $i"
 	done
+}
+
+function run_monitoring(){
+	docker-compose -f docker-compose-monitoring.yml up -d
+}
+
+function stop_monitoring(){
+	docker-compose -f docker-compose-monitoring.yml stop
+}
+
+function run_app(){
+	docker-compose  up -d
+}
+
+function stop_app(){
+	docker-compose stop
 }
 
 function connect_to_network(){
@@ -90,7 +110,23 @@ case $1 in
 	connect_to_network front_net post
 	connect_to_network back_net comment
 	;;
+
+	run_monitoring)
+	run_monitoring
+	;;
+
+	stop_monitoring)
+	stop_monitoring
+	;;
+
+	run_app)
+	run_app
+	;;
 	
+	stop_app)
+	stop_app
+	;;
+
 	*)
 	usage
 	;;
