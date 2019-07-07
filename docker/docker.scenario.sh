@@ -10,9 +10,10 @@ function usage(){
 			connect_post_comment_to_network \
 			run_monitoring \
 			stop_monitoring \
+			down_monitoring \
 			run_app \
-			stop_app  
-			
+			stop_app \
+			down_app 
 	do
 		echo "$0 $i"
 	done
@@ -26,12 +27,20 @@ function stop_monitoring(){
 	docker-compose -f docker-compose-monitoring.yml stop
 }
 
+function down_monitoring(){
+        docker-compose -f docker-compose-monitoring.yml down
+}
+
 function run_app(){
 	docker-compose  up -d
 }
 
 function stop_app(){
 	docker-compose stop
+}
+
+function down_app(){
+        docker-compose down
 }
 
 function connect_to_network(){
@@ -119,12 +128,20 @@ case $1 in
 	stop_monitoring
 	;;
 
+	down_monitoring)
+	down_monitoring
+	;;
+
 	run_app)
 	run_app
 	;;
 	
 	stop_app)
 	stop_app
+	;;
+
+	down_app)
+	down_app
 	;;
 
 	*)

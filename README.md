@@ -199,4 +199,26 @@ git push gitlab gitlab-ci-1 --tags
 	* prometheus
 	* post
 
-
+  
+**ВЫПОЛНЕНО ДЗ №18**  
+**CAdvisor**  
+* установлен и настрое cadvisor для мониторинга метрик Docker
+* поверена работа cadvisor
+**Grafana: Percentile 95 м прояие панельки в дашборде**  
+( имортирован дашборд (через json) Docker and system monitoring
+* настроен источник данных Prometheus
+* созданы различные панельки с графиками
+* создан дашборд UI_Service_Monitoring и экспортирован в monitoring/grafana/dashboards/UI_Service_Monitoring.json
+**Grafana: Monitoring Business Logic**  
+* создан дашборд Business_Logic_Monitoring и экспортирован в monitoring/grafana/dashboards/Business_Logic_Monitoring.json
+**Alerting** 
+* создан Dockerfile для описания сборки своего образа alertmanager
+* создано описание slack webhook в monitroing/alertmanager/config.yml
+* собран образ garichsv/alertmanager
+* в docker/docker-compose-monitoring.yml добавлен сервис alertmanager
+* создан prometheus/alert.yml с описанием алерта при падении сервиса (up == 0)
+* в Dockerfile prometheus добавлено копирование alert.yml
+* в prometheus.yml добавлена информация о конфиге alert.yml и таргет alertmanager:9093
+* Проверена работа alert нотификации в slack после остановки контейнера stop
+**Итог**  
+* Созданные образы загружены в hub.docker.com по адерсу: https://cloud.docker.com/u/garichsv/repository/list

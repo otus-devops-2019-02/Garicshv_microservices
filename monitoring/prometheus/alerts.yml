@@ -2,9 +2,12 @@ groups:
   - name: alert.rules
     rules:
       - alert: InstanceDown
-        expr: up == 0 # любое promql выражение
-          for: 1m     # в течение какого времени, по умолчанию 0
-          labels:     # дополнительные метки
+        # любое promql выражение
+        expr: up == 0
+        # в течение какого времени, по умолчанию 0
+        for: 1m
+        # дополнительные метки    
+        labels:    
            severity: page
         annotations:
           description: '{{ $labels.instance }} of job {{ $labels.job  }} has been down for more than 1 minute'
