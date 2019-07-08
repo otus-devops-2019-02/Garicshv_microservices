@@ -10,7 +10,6 @@ services:
       back_net: 
         aliases:
           - post_db
-          - comment_db
   ui:
     env_file:
       - .env
@@ -19,21 +18,33 @@ services:
     ports:
       - ${APP_PORT}:9292/tcp
     networks:
-      - front_net
+      back_net:
+        aliases:
+          - ui
   post:
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: service.post
     env_file:
       - .env
     build: ./post-py
     image: ${USERNAME}/post:${APP_POST_VERSION}
     networks:
-      - back_net
+      back_net:
+        aliases:
+          - post
+
   comment:
     env_file:
       - .env
     build: ./comment
     image: ${USERNAME}/comment:${APP_COMMENT_VERSION}
     networks:
-      - back_net
+      back_net:
+        aliases:
+          - comment
 
 volumes:
   post_db:
