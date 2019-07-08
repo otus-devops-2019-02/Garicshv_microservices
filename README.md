@@ -9,7 +9,7 @@ Garicshv microservices repository
 * docker commit # commit изменений в образ и его сохранение
 * docker system df # информация о занимаемом месте инфраструктурой docker
 * docker rm и docker rmi -f # удаление imgaes
-* docker rm $(docker ps -a -q) # удаление всех незапущенных конейнеров
+* docker rm $(docker ps -a -q) #  удаление всех незапущенных конейнеров
 
 
 **ВЫПОЛНЕНО ДЗ №13**  
@@ -135,4 +135,55 @@ docker compose ls
 ```
 docker-compose -p QQQ up -d
 ```
+**ВЫПОЛНЕНО ДЗ №15**
+* создали пайплайн с этапами build, test, deploy
+* создали runner
+* создали описание пайплайна в .gitlab-ci.yml 
+* установлена библиотека для тестирования reddit/Gemfile
+**Dev-окружение**
+* создали stage review
+* сделали deploy_dev_job
+* добавили environment
+```
+deploy_dev_job:
+ stage: review
+ script:
+   - echo 'Deploy'
+ environment:
+   name: dev
+   url: http://dev.example.com
+```
+**Staging и Production**
+* Определены два этапа stagge и production
+* Задано ручное выполнение джоба
+```
+staging:
+ stage: stage
+ when: manual
+ script:
+   - echo 'Deploy'
+ environment:
+   name: stage
+   url: https://beta.example.com
+```
+**Условия и ограничения**   
+* Проверена директива only, которая описывает список условий, которые должны быть истинны, чтобы job мог запуститься. Регулярное выражение означает, что должен стоять semver тэг в git, например, 2.4.10: 
+```
+ stage: production
+ when: manual
+ only:
+   - /^\d+\.\d+\.\d+/
+ script:
+   - echo 'Deploy'
+ environment:
+   name: production
+   url: https://example.com
+```
+запукать необходимо так:
+```
+git commit -a -m ‘#4 add logout button to profile page’
+git tag 2.4.10
+git push gitlab gitlab-ci-1 --tags
+```
+
 
