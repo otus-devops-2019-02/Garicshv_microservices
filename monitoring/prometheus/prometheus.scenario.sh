@@ -20,6 +20,7 @@ function push_images_to_dockerhub(){
 	docker push $USER_NAME/comment
 	docker push $USER_NAME/post
 	docker push $USER_NAME/prometheus
+	docker push $USER_NAME/alertmanager
 }
 
 function run_prometheus(){

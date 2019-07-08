@@ -1,0 +1,13 @@
+global:
+  slack_api_url:
+    'https://hooks.slack.com/services/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'
+
+route:
+  receiver: 'slack-notifications'
+
+receivers:
+  - name: 'slack-notifications'
+    slack_configs:
+      - channel: '#igor_shvakov'
+
+
