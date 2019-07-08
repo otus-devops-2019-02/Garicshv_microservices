@@ -38,7 +38,7 @@ Garicshv microservices repository
 * Создан новый образ ui:2.0 на основе ubuntu:16.04. В результате размер образа уменьшился существенно.
 * Создан persistent volume и применен для команды run контейнера с mongodb. Проверить можно по адресу: http://35.233.100.182:9292/  
 
-**ВЫПОЛНЕНО ДЗ №14**  
+**ВЫПОЛНЕНО ДЗ №15**  
 **HOST NETWORK DRIVER**  
 * Запустиkb несколько раз: 
 ```
@@ -135,7 +135,7 @@ docker compose ls
 ```
 docker-compose -p QQQ up -d
 ```
-**ВЫПОЛНЕНО ДЗ №15**
+**ВЫПОЛНЕНО ДЗ №16**
 * создали пайплайн с этапами build, test, deploy
 * создали runner
 * создали описание пайплайна в .gitlab-ci.yml 
@@ -185,5 +185,18 @@ git commit -a -m ‘#4 add logout button to profile page’
 git tag 2.4.10
 git push gitlab gitlab-ci-1 --tags
 ```
+
+**ВЫПОЛНЕНО ДЗ №17**  
+* приведена в порядок структура репозитория
+* создан docker/docker-compose.yml - который описывает всю инфраструктуру с докерами (сервисы)
+* создан monitoring/prometheus/Dockerfile - описывает в паре строк как собирать образ prometheus
+* создан monitoring/prometheus/prometheus.yml - описывает конфигурацию (эндпоинты) мониторинга в prometheus
+* проверен мониторинг (healthcheck) таргетов ui, comment в prometheues в выключенном состоянии post и включенном по списке эндпоинтов и по графам метрик
+* добавлен сервис node-exporter в docker-compose, в proetherus.yml отражен новый таргет для мониторинга, проверен мониторинг CPU
+* Образы запушены (по адресу **https://cloud.docker.com/u/garichsv/repository/list**) в docker hub:
+	* comment
+	* ui
+	* prometheus
+	* post
 
 
