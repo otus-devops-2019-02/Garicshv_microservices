@@ -1,5 +1,5 @@
 ---
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ui-deployment
@@ -7,13 +7,18 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ui
+      app: reddit
+      component: ui 
   template:
     metadata:
       name: ui
       labels:
-        app: ui
+        app: reddit
+        component: ui 
     spec:
       containers:
-      - image: garichsv/ui
+      - image: soaron/ui:logging
         name: ui
+        ports:
+        - containerPort: 9292
+
