@@ -246,4 +246,15 @@ git push gitlab gitlab-ci-1 --tags
 ****ВЫПОЛНЕНО ДЗ №20**
 * Подготовлены манифест-файлы для запуска тестового приложения: kubernetes/reddit
 * Настройка кубернетес по мануалу https://github.com/kelseyhightower/kubernetes-the-hard-way (все шагли в гайде описано очень подробно) см. гайд
+  
+****ВЫПОЛНЕНО ДЗ №21**
+* развернут minikube и проверена работа kubectl
+* созданы манифесты в kubernetes/reddit/
+* настроены mongodb, comment, ui
+* созданые services
+* Развернут kubernetes cluster в google cloud
+* развернут kubernetes
+* Развернуто наше приложение в GKE (с открытием портов). http://35.246.76.254:31247/
+* в GKE запущен dashboard c панелью управления
+
 

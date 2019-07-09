@@ -1,5 +1,5 @@
 ---
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: post-deployment
@@ -7,13 +7,21 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: post
+      app: reddit
+      component: post
   template:
     metadata:
       name: post
       labels:
-        app: post
+        app: reddit
+        component: post
     spec:
       containers:
-      - image: garichsv/post
+      - image: soaron/post:logging
         name: post
+        env:
+        - name: POST_DATABASE_HOST
+          value: mongo.default.svc.cluster.local
+        ports:
+        - containerPort: 5000
+
