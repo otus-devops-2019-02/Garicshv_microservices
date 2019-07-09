@@ -222,3 +222,23 @@ git push gitlab gitlab-ci-1 --tags
 * Проверена работа alert нотификации в slack после остановки контейнера stop
 **Итог**  
 * Созданные образы загружены в hub.docker.com по адерсу: https://cloud.docker.com/u/garichsv/repository/list
+
+**ВЫПОЛНЕНО ДЗ №19**  
+
+**EFK(ELK)**
+* в файле docker/docker-compose-logging.yml задали сервисы fluend, elasticsearch, kibana
+* Создали файл конфигурации logging/fluentd/fluent.conf
+* Созбрали образ garichsv/fliuentd
+**Структурированные логи**
+* Поправили docker/docker-compose.yml с указанием драйвера fluentd и настрили отправку логов в fluentd
+* Зашли в Kibana. Создали паттерн и немного поигрались с функционалом.
+* Добавили в logging/fluentd/fluent.conf парсинг json логов. Проверили в Kibana, что параметры распарсились 
+**Неструктурированные логи**
+* В docker/docker-compose.yml для приложения ui определили драйвер fluentd
+* Добавили в /docker/fluentd/fluent.con свои собственные регулярные выражения для парсинга. Проверили работоспособность в Kibana.
+* Отредактировали docker/fluentd/fluent.conf для работы с GROK шаблонами. Проверили работоспособность в Kibana.
+**Distributed tracing**
+* в docker/docker-compose-logging.yml добавили сервис zipkin
+* Задали в приложениях режим работы с zipkin: ZIPKIN_ENABLED=true
+* Разместили zipkin  в одной сети с приложениями
+* проверили наличие трассировки в zipkin - трейсы. Цепочка вызовов разбивается на ээтапы и времена выполнения в них
