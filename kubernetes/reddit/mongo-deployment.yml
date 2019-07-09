@@ -1,40 +1,25 @@
-apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+---
+apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: mongo-deployment
+  name: mongo
   labels:
     app: reddit
     component: mongo
-    post-db: "true"
-    comment-db: "true"
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: reddit
       component: mongo
-  replicas: 1
   template:
     metadata:
+      name: mongo
       labels:
         app: reddit
         component: mongo
-        post-db: "true"
-        comment-db: "true"
     spec:
       containers:
-      - name: mongo
-        image: mongo:latest
-        volumeMounts:
-        - name: mongo-gce-pd-storage
-          mountPath: /data/db
-        resources:
-          requests:
-            cpu: 100m
-            memory: 100Mi
-        ports:
-        - containerPort: 27017
-      volumes:
-      - name: mongo-gce-pd-storage
-        persistentVolumeClaim:
-          claimName: mongo-pvc-dynamic
+      - image: mongo:3.2
+        name: mongo
 
