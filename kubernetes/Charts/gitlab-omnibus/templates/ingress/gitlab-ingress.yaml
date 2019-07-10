@@ -47,5 +47,4 @@ spec:
         backend:
           serviceName: {{ template "fullname" . }}
           servicePort: 9090
-
-1
+---

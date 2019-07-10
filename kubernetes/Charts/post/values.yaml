@@ -1,13 +1,9 @@
 service:
-  internalPort: 9292
-  externalPort: 9292
+  internalPort: 5000
+  externalPort: 5000
 
 image:
-  repository: garichsv
+  repository: soaron/post
   tag: logging
 
-postHost:
-postPort:
-commentHost:
-commentPort:
-
+databaseHost:

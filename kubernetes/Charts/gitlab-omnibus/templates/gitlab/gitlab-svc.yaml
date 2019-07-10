@@ -34,4 +34,3 @@ spec:
       port: 8090
       targetPort: pages
     {{- end }}
-

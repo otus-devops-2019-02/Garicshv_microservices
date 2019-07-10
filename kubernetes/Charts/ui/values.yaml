@@ -3,11 +3,10 @@ service:
   externalPort: 9292
 
 image:
-  repository: garichsv
+  repository: soaron
   tag: logging
 
 postHost:
 postPort:
 commentHost:
 commentPort:
-

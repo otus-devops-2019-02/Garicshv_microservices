@@ -269,3 +269,13 @@ git push gitlab gitlab-ci-1 --tags
 	* PersistentVolume
 	* StorageClass Fast
 
+**ВЫПОЛНЕНО ДЗ №23**
+* установлен helm
+* созданы charts для сервисов приложения
+* для mongodb используется chart из центрального репозитория
+* в chatrs используются templates
+* в templates используются функции helpers
+* подготовлен единый chart приложения с зависимостями на charts сервисов и db
+* рассмотрен пайплайн установки приложения через hellm на gitlab
+
+
