@@ -28,14 +28,14 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>SablinIgor_microservices/README.md at kubernetes-4 · otus-devops-2019-02/SablinIgor_microservices · GitHub</title>
-    <meta name="description" content="SablinIgor microservices repository. Contribute to otus-devops-2019-02/SablinIgor_microservices development by creating an account on GitHub.">
+  <title>Garicshv_microservices/README.md at kubernetes-4 · otus-devops-2019-02/Garicshv_microservices · GitHub</title>
+    <meta name="description" content="SablinIgor microservices repository. Contribute to otus-devops-2019-02/Garicshv_microservices development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
-    <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/48240133?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="otus-devops-2019-02/SablinIgor_microservices" /><meta name="twitter:description" content="SablinIgor microservices repository. Contribute to otus-devops-2019-02/SablinIgor_microservices development by creating an account on GitHub." />
-    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/48240133?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="otus-devops-2019-02/SablinIgor_microservices" /><meta property="og:url" content="https://github.com/otus-devops-2019-02/SablinIgor_microservices" /><meta property="og:description" content="SablinIgor microservices repository. Contribute to otus-devops-2019-02/SablinIgor_microservices development by creating an account on GitHub." />
+    <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/48240133?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="otus-devops-2019-02/Garicshv_microservices" /><meta name="twitter:description" content="SablinIgor microservices repository. Contribute to otus-devops-2019-02/Garicshv_microservices development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/48240133?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="otus-devops-2019-02/Garicshv_microservices" /><meta property="og:url" content="https://github.com/otus-devops-2019-02/Garicshv_microservices" /><meta property="og:description" content="SablinIgor microservices repository. Contribute to otus-devops-2019-02/Garicshv_microservices development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
   
@@ -79,14 +79,14 @@
   <meta http-equiv="x-pjax-version" content="41b9ff63b8f4ee38c8cca1ecdadf550e">
   
 
-      <link href="https://github.com/otus-devops-2019-02/SablinIgor_microservices/commits/kubernetes-4.atom" rel="alternate" title="Recent Commits to SablinIgor_microservices:kubernetes-4" type="application/atom+xml">
+      <link href="https://github.com/otus-devops-2019-02/Garicshv_microservices/commits/kubernetes-4.atom" rel="alternate" title="Recent Commits to Garicshv_microservices:kubernetes-4" type="application/atom+xml">
 
-  <meta name="go-import" content="github.com/otus-devops-2019-02/SablinIgor_microservices git https://github.com/otus-devops-2019-02/SablinIgor_microservices.git">
+  <meta name="go-import" content="github.com/otus-devops-2019-02/Garicshv_microservices git https://github.com/otus-devops-2019-02/Garicshv_microservices.git">
 
-  <meta name="octolytics-dimension-user_id" content="48240133" /><meta name="octolytics-dimension-user_login" content="otus-devops-2019-02" /><meta name="octolytics-dimension-repository_id" content="175780597" /><meta name="octolytics-dimension-repository_nwo" content="otus-devops-2019-02/SablinIgor_microservices" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="175780597" /><meta name="octolytics-dimension-repository_network_root_nwo" content="otus-devops-2019-02/SablinIgor_microservices" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+  <meta name="octolytics-dimension-user_id" content="48240133" /><meta name="octolytics-dimension-user_login" content="otus-devops-2019-02" /><meta name="octolytics-dimension-repository_id" content="175780597" /><meta name="octolytics-dimension-repository_nwo" content="otus-devops-2019-02/Garicshv_microservices" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="175780597" /><meta name="octolytics-dimension-repository_network_root_nwo" content="otus-devops-2019-02/Garicshv_microservices" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -130,7 +130,7 @@
               <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
     <a class="Header-link" href="/otus-devops-2019-02">otus-devops-2019-02</a>
     /
-    <a class="Header-link" href="/otus-devops-2019-02/SablinIgor_microservices">SablinIgor_microservices</a>
+    <a class="Header-link" href="/otus-devops-2019-02/Garicshv_microservices">Garicshv_microservices</a>
 
 
           </div>
@@ -138,7 +138,7 @@
         <div class="d-flex flex-items-center">
             <a href="/join?source=header-repo"
               class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="aa4845a635a2720500e425389d230df784222ba89dd668ce2d420ce957b44704"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="aa4845a635a2720500e425389d230df784222ba89dd668ce2d420ce957b44704"
               data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
               Sign&nbsp;up
             </a>
@@ -265,7 +265,7 @@
   aria-expanded="false"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="175780597" data-scoped-search-url="/otus-devops-2019-02/SablinIgor_microservices/search" data-unscoped-search-url="/search" action="/otus-devops-2019-02/SablinIgor_microservices/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="175780597" data-scoped-search-url="/otus-devops-2019-02/Garicshv_microservices/search" data-unscoped-search-url="/search" action="/otus-devops-2019-02/Garicshv_microservices/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
         <input type="text"
           class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
@@ -404,15 +404,15 @@
 
           </div>
 
-        <a href="/login?return_to=%2Fotus-devops-2019-02%2FSablinIgor_microservices%2Fblob%2Fkubernetes-4%2Fkubernetes%2FCharts%2Fgitlab-omnibus%2Fcharts%2Fgitlab-runner%2FREADME.md"
+        <a href="/login?return_to=%2Fotus-devops-2019-02%2FGaricshv_microservices%2Fblob%2Fkubernetes-4%2Fkubernetes%2FCharts%2Fgitlab-omnibus%2Fcharts%2Fgitlab-runner%2FREADME.md"
           class="HeaderMenu-link no-underline mr-3"
-          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9370067c7d9e33b39a6e681b3bfa50696c337c1b00124da5d1f745ed79120557"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9370067c7d9e33b39a6e681b3bfa50696c337c1b00124da5d1f745ed79120557"
           data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
           Sign&nbsp;in
         </a>
           <a href="/join?source=header-repo"
             class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9370067c7d9e33b39a6e681b3bfa50696c337c1b00124da5d1f745ed79120557"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9370067c7d9e33b39a6e681b3bfa50696c337c1b00124da5d1f745ed79120557"
             data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
             Sign&nbsp;up
           </a>
@@ -459,10 +459,10 @@
 
   <li>
     
-  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="48140df44e911a071b917274eac7dd6e6652e5d7c4a8a6ebb23a1997ad4b0011" href="/login?return_to=%2Fotus-devops-2019-02%2FSablinIgor_microservices">
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="48140df44e911a071b917274eac7dd6e6652e5d7c4a8a6ebb23a1997ad4b0011" href="/login?return_to=%2Fotus-devops-2019-02%2FGaricshv_microservices">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
     Watch
-</a>    <a class="social-count" href="/otus-devops-2019-02/SablinIgor_microservices/watchers"
+</a>    <a class="social-count" href="/otus-devops-2019-02/Garicshv_microservices/watchers"
        aria-label="1 user is watching this repository">
       1
     </a>
@@ -470,11 +470,11 @@
   </li>
 
   <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:175780597,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="de5b8c92def3d3da3d950d8b78f90740122f041ee209e2c8bb004fff8838dde5" href="/login?return_to=%2Fotus-devops-2019-02%2FSablinIgor_microservices">
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:175780597,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="de5b8c92def3d3da3d950d8b78f90740122f041ee209e2c8bb004fff8838dde5" href="/login?return_to=%2Fotus-devops-2019-02%2FGaricshv_microservices">
       <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
       Star
 </a>
-    <a class="social-count js-social-count" href="/otus-devops-2019-02/SablinIgor_microservices/stargazers"
+    <a class="social-count js-social-count" href="/otus-devops-2019-02/Garicshv_microservices/stargazers"
       aria-label="0 users starred this repository">
       0
     </a>
@@ -482,11 +482,11 @@
   </li>
 
   <li>
-      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:175780597,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b05625dfe6f8b33b9352880b79e20c369ca3d3d2aa869234727b1b2bce8c0dc0" href="/login?return_to=%2Fotus-devops-2019-02%2FSablinIgor_microservices">
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:175780597,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b05625dfe6f8b33b9352880b79e20c369ca3d3d2aa869234727b1b2bce8c0dc0" href="/login?return_to=%2Fotus-devops-2019-02%2FGaricshv_microservices">
         <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
         Fork
 </a>
-    <a href="/otus-devops-2019-02/SablinIgor_microservices/network/members" class="social-count"
+    <a href="/otus-devops-2019-02/Garicshv_microservices/network/members" class="social-count"
        aria-label="0 users forked this repository">
       0
     </a>
@@ -497,7 +497,7 @@
     <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
   <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/otus-devops-2019-02/hovercard" href="/otus-devops-2019-02">otus-devops-2019-02</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/otus-devops-2019-02/SablinIgor_microservices">SablinIgor_microservices</a></strong>
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/otus-devops-2019-02/Garicshv_microservices">Garicshv_microservices</a></strong>
   
 
 </h1>
@@ -511,7 +511,7 @@
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4">
       <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
@@ -519,7 +519,7 @@
 
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /otus-devops-2019-02/SablinIgor_microservices/pulls" href="/otus-devops-2019-02/SablinIgor_microservices/pulls">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /otus-devops-2019-02/Garicshv_microservices/pulls" href="/otus-devops-2019-02/Garicshv_microservices/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
       <span class="Counter">0</span>
@@ -527,18 +527,18 @@
 </a>  </span>
 
 
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /otus-devops-2019-02/SablinIgor_microservices/projects" href="/otus-devops-2019-02/SablinIgor_microservices/projects">
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /otus-devops-2019-02/Garicshv_microservices/projects" href="/otus-devops-2019-02/Garicshv_microservices/projects">
       <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
       <span class="Counter" >0</span>
 </a>
 
 
-    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /otus-devops-2019-02/SablinIgor_microservices/security/advisories" href="/otus-devops-2019-02/SablinIgor_microservices/security/advisories">
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /otus-devops-2019-02/Garicshv_microservices/security/advisories" href="/otus-devops-2019-02/Garicshv_microservices/security/advisories">
       <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg>
       Security
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /otus-devops-2019-02/SablinIgor_microservices/pulse" href="/otus-devops-2019-02/SablinIgor_microservices/pulse">
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /otus-devops-2019-02/Garicshv_microservices/pulse" href="/otus-devops-2019-02/Garicshv_microservices/pulse">
       <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
       Insights
 </a>
@@ -551,32 +551,32 @@
        itemtype="http://schema.org/BreadcrumbList">
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4">
         <span itemprop="name">Code</span>
         <meta itemprop="position" content="1">
 </a>    </span>
 
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /otus-devops-2019-02/SablinIgor_microservices/pulls" href="/otus-devops-2019-02/SablinIgor_microservices/pulls">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /otus-devops-2019-02/Garicshv_microservices/pulls" href="/otus-devops-2019-02/Garicshv_microservices/pulls">
         <span itemprop="name">Pull requests</span>
         <span class="Counter">0</span>
         <meta itemprop="position" content="3">
 </a>    </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /otus-devops-2019-02/SablinIgor_microservices/projects" href="/otus-devops-2019-02/SablinIgor_microservices/projects">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /otus-devops-2019-02/Garicshv_microservices/projects" href="/otus-devops-2019-02/Garicshv_microservices/projects">
           <span itemprop="name">Projects</span>
           <span class="Counter">0</span>
           <meta itemprop="position" content="4">
 </a>      </span>
 
 
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /otus-devops-2019-02/SablinIgor_microservices/security/advisories" href="/otus-devops-2019-02/SablinIgor_microservices/security/advisories">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /otus-devops-2019-02/Garicshv_microservices/security/advisories" href="/otus-devops-2019-02/Garicshv_microservices/security/advisories">
         <span itemprop="name">Security</span>
         <meta itemprop="position" content="6">
 </a>
-      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /otus-devops-2019-02/SablinIgor_microservices/pulse" href="/otus-devops-2019-02/SablinIgor_microservices/pulse">
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /otus-devops-2019-02/Garicshv_microservices/pulse" href="/otus-devops-2019-02/Garicshv_microservices/pulse">
         Pulse
 </a>
 
@@ -593,7 +593,7 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/otus-devops-2019-02/SablinIgor_microservices/blob/2a6d65115c26fa7ec5dc90c0239c5c1887725e97/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/otus-devops-2019-02/Garicshv_microservices/blob/2a6d65115c26fa7ec5dc90c0239c5c1887725e97/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:43fa1f26d99669536bff08d9be7dd1ac -->
           <div class="signup-prompt-bg rounded-1">
@@ -605,7 +605,7 @@
             </button>
 </form>          <h3 class="pt-2">Join GitHub today</h3>
           <p class="col-6 mx-auto">GitHub is home to over 36 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/SablinIgor_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e3fd661730b0b7819d11e5ed73c13c6173c17b30762d4acb2f8bce7ea4beb762" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;6718:9A5D:CB6304:1390877:5D25CAC5&quot;,&quot;originating_url&quot;:&quot;https://github.com/otus-devops-2019-02/Garicshv_microservices/blob/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e3fd661730b0b7819d11e5ed73c13c6173c17b30762d4acb2f8bce7ea4beb762" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
         </div>
       </div>
     </div>
@@ -623,7 +623,7 @@
     <span class="css-truncate-target">kubernetes-4</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/otus-devops-2019-02/SablinIgor_microservices/ref-list/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/otus-devops-2019-02/Garicshv_microservices/ref-list/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -631,7 +631,7 @@
 </details>
 
         <div class="BtnGroup flex-shrink-0 d-md-none">
-          <a href="/otus-devops-2019-02/SablinIgor_microservices/find/kubernetes-4"
+          <a href="/otus-devops-2019-02/Garicshv_microservices/find/kubernetes-4"
                 class="js-pjax-capture-input btn btn-sm BtnGroup-item"
                 data-pjax
                 data-hotkey="t">
@@ -643,11 +643,11 @@
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4"><span>SablinIgor_microservices</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4/kubernetes"><span>kubernetes</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4/kubernetes/Charts"><span>Charts</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4/kubernetes/Charts/gitlab-omnibus"><span>gitlab-omnibus</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts"><span>charts</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/SablinIgor_microservices/tree/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner"><span>gitlab-runner</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4"><span>Garicshv_microservices</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4/kubernetes"><span>kubernetes</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4/kubernetes/Charts"><span>Charts</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4/kubernetes/Charts/gitlab-omnibus"><span>gitlab-omnibus</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts"><span>charts</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/otus-devops-2019-02/Garicshv_microservices/tree/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner"><span>gitlab-runner</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
-        <a href="/otus-devops-2019-02/SablinIgor_microservices/find/kubernetes-4"
+        <a href="/otus-devops-2019-02/Garicshv_microservices/find/kubernetes-4"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -668,11 +668,11 @@
           <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=30868888" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/SablinIgor"><img class="avatar" src="https://avatars2.githubusercontent.com/u/30868888?s=40&amp;v=4" width="20" height="20" alt="@SablinIgor" /></a>
           <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=30868888" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/SablinIgor">SablinIgor</a>
             <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="Last HW" class="link-gray" href="/otus-devops-2019-02/SablinIgor_microservices/commit/a5d797e1781633cc8741a972144bed0db99e5195">Last HW</a>
+              <a data-pjax="true" title="Last HW" class="link-gray" href="/otus-devops-2019-02/Garicshv_microservices/commit/a5d797e1781633cc8741a972144bed0db99e5195">Last HW</a>
             </span>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/otus-devops-2019-02/SablinIgor_microservices/commit/a5d797e1781633cc8741a972144bed0db99e5195" data-pjax>a5d797e</a>
+          <a class="pr-2 text-mono link-gray" href="/otus-devops-2019-02/Garicshv_microservices/commit/a5d797e1781633cc8741a972144bed0db99e5195" data-pjax>a5d797e</a>
           <relative-time datetime="2019-06-22T09:19:56Z">Jun 22, 2019</relative-time>
         </span>
       </div>
@@ -685,7 +685,7 @@
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/otus-devops-2019-02/SablinIgor_microservices/contributors/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md/list" preload>
+          src="/otus-devops-2019-02/Garicshv_microservices/contributors/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md/list" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -717,9 +717,9 @@
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/otus-devops-2019-02/SablinIgor_microservices/raw/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/otus-devops-2019-02/SablinIgor_microservices/blame/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/otus-devops-2019-02/SablinIgor_microservices/commits/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/otus-devops-2019-02/Garicshv_microservices/raw/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/otus-devops-2019-02/Garicshv_microservices/blame/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/otus-devops-2019-02/Garicshv_microservices/commits/kubernetes-4/kubernetes/Charts/gitlab-omnibus/charts/gitlab-runner/README.md">History</a>
     </div>
 
 
