@@ -277,4 +277,23 @@ git push gitlab gitlab-ci-1 --tags
 * подготовлен единый chart приложения с зависимостями на charts сервисов и db
 * рассмотрен пайплайн установки приложения через hellm на gitlab
 
+**ВЫПОЛНЕНО ДЗ №24**
+* поднят кластер k8s
+	* Stackdriver Logging - Отключен
+	* Stackdriver Monitoring - Отключен
+	* Устаревшие права доступа - Включено
+* установлен tiller
+* установлен ingress контроллер nginx
+* установлен prometheus с настройкой алертменеджера
+* созданы таргеты
+* установлены приложения
+``` 
+helm install reddit --name reddit-test
+helm install reddit --name production --namespace production
+helm install reddit --name staging --namespace staging
+```
+* блоки endpoint-ов разделены на три части: test, staging и production
+* установлена grafana для мониторинга метрик приложений. Применен templating
+* установлены и настроены для логирования и парсинга elasticsearch, fluentd, kibana
+
 
