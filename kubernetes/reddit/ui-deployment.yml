@@ -17,7 +17,7 @@ spec:
         component: ui 
     spec:
       containers:
-      - image: soaron/ui:logging
+      - image: garicshv/ui:logging
         name: ui
         ports:
         - containerPort: 9292

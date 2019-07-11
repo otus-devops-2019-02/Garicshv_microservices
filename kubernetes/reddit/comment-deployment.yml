@@ -17,7 +17,7 @@ spec:
         component: comment
     spec:
       containers:
-      - image: soaron/comment:logging
+      - image: garicshv/comment:logging
         name: comment
         env:
         - name: COMMENT_DATABASE_HOST
